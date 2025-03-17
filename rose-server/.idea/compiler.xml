@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sso-service-mp" />
         <module name="rose-common" />
+        <module name="mp-gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sso-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
