@@ -1,0 +1,101 @@
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    environment:
+      # - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - D:/DockerData/postgres_data:/var/lib/postgresql/data
+    restart: always
+
+  mysql:
+    image: mysql:8.0.29
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - TZ=Asia/Shanghai
+      - MYSQL_CHARSET=utf8mb4
+      - MYSQL_COLLATION=utf8mb4_general_ci
+      - MYSQL_ROOT_HOST=%
+    ports:
+      - "3307:3306"
+    volumes:
+      - D:/DockerData/mysql_data:/var/lib/mysql
+    privileged: true
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot" ]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    restart: always
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3.11-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    restart: always
+
+  nacos:
+    container_name: nacos
+    image: nacos/nacos-server:v2.1.0-slim
+    ports:
+      - "8848:8848"
+      - "9848:9848"
+      - "9849:9849"
+    privileged: true
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+      - MODE=standalone
+      - PREFER_HOST_MODE=hostname
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=mysql
+      - MYSQL_SERVICE_DB_NAME=nacos_config
+      - MYSQL_SERVICE_PORT=3306
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=root
+    depends_on:
+      mysql:
+        condition: service_healthy
+  # Docker-CentOS 虚拟机容器
+  gogs:
+    container_name: gogs
+    image: gogs/gogs:0.12
+    ports:
+      - "3000:3000"  # HTTP端口映射
+      - "2222:22"    # SSH端口映射
+    volumes:
+      - /opt/gogs-data:/data  # 宿主机的 /opt/gogs 目录挂载到容器内的 /data
+    restart: always
+
+  jenkins:
+    image: jenkins/jenkins:lts-jdk17     # 你的 Jenkins 镜像名称
+    container_name: jenkins              # 保持容器名称一致
+    networks:
+      - jenkins             # 加入自定义网络
+    environment:
+      - DOCKER_HOST=tcp://docker:2376    # Docker 守护进程地址
+      - DOCKER_CERT_PATH=/certs/client   # 证书路径
+      - DOCKER_TLS_VERIFY=1              # 强制 TLS 验证
+    volumes:
+      - /opt/jenkins/jenkins-data:/var/jenkins_home   # Jenkins 数据持久化
+      - .opt/jenkins/jenkins-docker-certs:/certs/client:ro  # 只读挂载证书
+    ports:
+      - "8080:8080"                      # Web 界面端口
+      - "50000:50000"                    # 代理通信端口
+    restart: always                      # 重启策略
+networks:
+  jenkins:               # 自定义桥接网络
+    driver: bridge

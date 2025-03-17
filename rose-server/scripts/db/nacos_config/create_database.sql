@@ -1,0 +1,1 @@
+create database if not exists `nacos_config` charset utf8mb4;
