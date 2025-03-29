@@ -38,7 +38,6 @@ public class MemberController {
 
     @PostMapping("/login")
     public void login(@RequestBody MemberLoginDTO memberLoginDTO) {
-        log.info("memberLoginDTO:{}", memberLoginDTO);
         memberService.login(memberLoginDTO);
     }
 

@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cb68be2-6891-4430-bdba-80e7230e0ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/src/test/java/com/lihainuo/rose/common/RoseCommonApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/lihainuo/rose/gateway/MpGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/rose/mp/gateway/MpGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/lihainuo/rose/gateway/filters/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/rose/mp/gateway/filters/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/test/java/com/lihainuo/rose/gateway/RoseGatewayMpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/test/java/com/rose/mp/gateway/RoseGatewayMpApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/db/nacos_config/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/nacos/db/create_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/db/nacos_config/nacos_config.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/nacos/db/nacos_config.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/doc/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/doc/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-service/sso-service/mp/sso-service-mp/src/main/java/com/sso/mp/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-service/sso-service/mp/sso-service-mp/src/main/java/com/sso/mp/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743178547277</updated>
       <workItem from="1743178549226" duration="1008000" />
-      <workItem from="1743179564854" duration="14639000" />
+      <workItem from="1743179564854" duration="15399000" />
     </task>
     <servers />
   </component>
