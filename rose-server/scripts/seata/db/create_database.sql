@@ -1,0 +1,1 @@
+create database if not exists `seata_server` charset utf8mb4;

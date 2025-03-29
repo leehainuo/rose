@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cb68be2-6891-4430-bdba-80e7230e0ef5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-common/mp-common/src/test/java/com/lihainuo/rose/common/RoseCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/lihainuo/rose/gateway/MpGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/rose/mp/gateway/MpGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/lihainuo/rose/gateway/filters/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java/com/rose/mp/gateway/filters/AuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/test/java/com/lihainuo/rose/gateway/RoseGatewayMpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rose-gateway/mp-gateway/src/test/java/com/rose/mp/gateway/RoseGatewayMpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/db/nacos_config/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/nacos/db/create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/db/nacos_config/nacos_config.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/nacos/db/nacos_config.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/doc/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/doc/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\DevelopmentTools\apache-maven-3.9.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\DevelopmentTools\apache-maven-3.9.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ux7oVp8yb2uIuj4hSaQwR54wEJ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Database Script.seata_server.sql.executor": "Run",
+    "Docker.doc.networks: Compose Deployment.executor": "Run",
+    "Docker.doc.seata-server: Compose Deployment.executor": "Run",
+    "Docker.doc.seata: Compose Deployment.executor": "Run",
+    "Docker.doc: Compose Deployment.executor": "Run",
+    "JUnit.JwtSpringBootStarterApplicationTests.contextLoads.executor": "Run",
+    "JUnit.JwtSpringBootStarterApplicationTests.executor": "Run",
+    "JUnit.JwtSpringBootStarterApplicationTests.test.executor": "Run",
+    "JUnit.SsoServiceMpApplicationTests.contextLoads.executor": "Run",
+    "Maven.jwt-spring-boot-starter [clean].executor": "Run",
+    "Maven.jwt-spring-boot-starter [install].executor": "Run",
+    "Maven.jwt-spring-boot-starter [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SsoServiceMpApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/rose/rose-server/rose-starter/jwt-spring-boot-starter/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2675",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "2bff147a-1634-4b04-840a-3a9fee5d2e77"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\rose\rose-server\rose-starter\jwt-spring-boot-starter\src\main\resources" />
+      <recent name="D:\Projects\rose\rose-server\rose-starter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\rose\rose-server\scripts\nacos" />
+      <recent name="D:\Projects\rose\rose-server\scripts\seata\db" />
+      <recent name="D:\Projects\rose\rose-server\scripts\db\seata_config" />
+      <recent name="D:\Projects\rose\rose-server\rose-starter" />
+      <recent name="D:\Projects\rose\rose-server\rose-starter\jwt-spring-boot-starter\src\main\resources\META-INF\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rose.jwt.starter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.doc.seata-server: Compose Deployment">
+    <configuration name="seata_server.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/scripts/seata/db/seata_server.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="2bff147a-1634-4b04-840a-3a9fee5d2e77" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SsoServiceMpApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sso-service-mp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sso.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sso.mp" />
+      <option name="MAIN_CLASS_NAME" value="com.sso.mp.SsoServiceMpApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="doc: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="scripts/doc/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="doc.seata-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="seata-server" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="scripts/doc/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="doc.seata: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="seata" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="scripts/doc/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.doc.seata-server: Compose Deployment" />
+        <item itemvalue="Database Script.seata_server.sql" />
+        <item itemvalue="Docker.doc: Compose Deployment" />
+        <item itemvalue="Docker.doc.seata: Compose Deployment" />
+        <item itemvalue="JUnit.SsoServiceMpApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cb68be2-6891-4430-bdba-80e7230e0ef5" name="Changes" comment="" />
+      <created>1743178547277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743178547277</updated>
+      <workItem from="1743178549226" duration="1008000" />
+      <workItem from="1743179564854" duration="14639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

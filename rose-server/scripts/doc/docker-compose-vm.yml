@@ -1,0 +1,26 @@
+services:
+  # Docker-CentOS 虚拟机容器
+  gogs:
+    container_name: gogs
+    image: gogs/gogs:0.12
+    ports:
+      - "3000:3000"  # HTTP端口映射
+      - "2222:22"    # SSH端口映射
+    volumes:
+      - /opt/gogs-data:/data  # 宿主机的 /opt/gogs 目录挂载到容器内的 /data
+    restart: always
+
+  jenkins:
+    image: jenkins/jenkins:lts-jdk17     # 你的 Jenkins 镜像名称
+    container_name: jenkins              # 保持容器名称一致
+    environment:
+      - DOCKER_HOST=tcp://docker:2376    # Docker 守护进程地址
+      - DOCKER_CERT_PATH=/certs/client   # 证书路径
+      - DOCKER_TLS_VERIFY=1              # 强制 TLS 验证
+    volumes:
+      - /opt/jenkins/jenkins-data:/var/jenkins_home   # Jenkins 数据持久化
+      - .opt/jenkins/jenkins-docker-certs:/certs/client:ro  # 只读挂载证书
+    ports:
+      - "8080:8080"                      # Web 界面端口
+      - "50000:50000"                    # 代理通信端口
+    restart: always                      # 重启策略

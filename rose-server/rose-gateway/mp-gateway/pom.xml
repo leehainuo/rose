@@ -37,6 +37,22 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!-- JWT Starter -->
+        <dependency>
+            <groupId>com.rose</groupId>
+            <artifactId>jwt-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.rose</groupId>
+            <artifactId>jwt-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -56,7 +72,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.lihainuo.rose.gateway.MpGatewayApplication</mainClass>
+                    <mainClass>com.rose.mp.gateway.MpGatewayApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

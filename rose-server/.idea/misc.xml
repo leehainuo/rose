@@ -4,23 +4,19 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-pom/rose-model/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-pom/rose-service/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-pom/rose-common/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-common/pom.xml" />
         <option value="$PROJECT_DIR$/rose-pom/rose-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-gateway/rose-gateway-mp/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-service/sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-pom/rose-model/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-pom/rose-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-pom/rose-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-common/mp-common/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-common/admin-common/pom.xml" />
         <option value="$PROJECT_DIR$/rose-gateway/mp-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-service/mp/mp-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-gateway/admin-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-service/sso-service/mp/sso-service-mp/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-service/sso-service/core/sso-service-model/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-starter/jwt-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/rose-starter/file-spring-boot-starter/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/rose-pom/rose-common/pom.xml" />
-        <option value="$PROJECT_DIR$/rose-service/sso-service/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">

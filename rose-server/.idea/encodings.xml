@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/rose-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-common/admin-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-common/admin-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-common/mp-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-common/mp-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-gateway/admin-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-gateway/admin-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-gateway/mp-gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-pom/rose-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-pom/rose-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-pom/rose-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-pom/rose-feign/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-pom/rose-model/src/main/java" charset="UTF-8" />
@@ -15,9 +17,13 @@
     <file url="file://$PROJECT_DIR$/rose-pom/rose-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-pom/rose-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rose-pom/rose-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-service/mp/sso-service-mp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-service/mp/sso-service-mp/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-service/sso-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rose-service/sso-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-service/sso-service/core/sso-service-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-service/sso-service/core/sso-service-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-service/sso-service/mp/sso-service-mp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-service/sso-service/mp/sso-service-mp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-starter/file-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-starter/file-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-starter/jwt-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rose-starter/jwt-spring-boot-starter/src/main/resources" charset="UTF-8" />
   </component>
 </project>
